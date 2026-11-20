@@ -1,0 +1,13 @@
+scenario,algorithm,infinity,destination,rounds,messages,bytes,duration_ms,peak_finite_cost,loops,cost_ok,pairs
+line,ls,16,Z,1,1,63,5,2,0,6,6
+line,dv,16,Z,15,15,653,70,15,0,6,6
+line,dv-split-horizon,16,Z,2,2,88,5,2,0,6,6
+line,dv-poison-reverse,16,Z,2,2,88,5,0,0,6,6
+triangle,ls,100,X,2,8,564,5,51,0,6,6
+triangle,dv,100,X,47,49,2152,230,51,0,6,6
+triangle,dv-split-horizon,100,X,1,1,44,0,51,2,5,6
+triangle,dv-poison-reverse,100,X,3,5,222,10,60,0,6,6
+loop_of_three,ls,16,D,2,4,276,5,0,0,12,12
+loop_of_three,dv,16,D,15,122,5306,70,15,0,12,12
+loop_of_three,dv-split-horizon,16,D,3,5,217,10,4,3,9,12
+loop_of_three,dv-poison-reverse,16,D,15,58,2544,70,15,0,12,12
